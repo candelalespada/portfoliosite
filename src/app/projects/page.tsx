@@ -3,7 +3,7 @@ import { projects } from "@/data/projects";
 import FormattedText from "@/components/FormattedText";
 
 export const metadata: Metadata = {
-  title: "Projects — Your Name",
+  title: "Projects — Candela Lespada",
   description: "A collection of projects I've built.",
 };
 

@@ -10,7 +10,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Portfolio",
+  title: "Candela Lespada — Portfolio",
   description: "Portfolio site showcasing my projects and how to get in touch.",
 };
 
