@@ -12,9 +12,9 @@ export default function Navbar() {
     <header className="border-b border-accent/30">
       <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-5">
         <Link href="/" className="text-lg font-semibold tracking-tight">
-          Candela Lespada Portfolio
+          Portfolio
         </Link>
-        <ul className="flex gap-6 text-sm">
+        <ul className="flex gap-6 text-lg">
           {links.map((link) => (
             <li key={link.href}>
               <Link
@@ -24,6 +24,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             </li>
+
           ))}
         </ul>
       </nav>

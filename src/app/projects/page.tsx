@@ -21,15 +21,15 @@ export default function ProjectsPage() {
             key={project.slug}
             className="flex flex-col rounded-xl border border-accent/30 p-6"
           >
-            <h2 className="font-semibold">{project.title}</h2>
-            <p className="mt-2 flex-1 text-sm text-foreground/70">
+            <h2 className="text-lg font-semibold">{project.title}</h2>
+            <p className="mt-2 flex-1 text-base text-foreground/70">
               <FormattedText text={project.description} />
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-accent-light px-2.5 py-1 text-xs text-foreground"
+                  className="rounded-full bg-accent-light px-2.5 py-1 text-sm text-foreground"
                 >
                   {tag}
                 </span>

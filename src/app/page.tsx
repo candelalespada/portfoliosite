@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-4xl px-6">
-      <section className="flex flex-col-reverse items-center gap-10 py-20 sm:flex-row sm:items-center sm:py-28">
+      <section className="flex flex-col-reverse items-center gap-10 py-20 sm:flex-row sm:items-start sm:py-28">
         <div>
           <p className="text-lg font-medium text-foreground/70">
             Hi, I&apos;m
@@ -16,25 +16,48 @@ export default function Home() {
           <h1 className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
             Candela Lespada
           </h1>
-          <div className="mt-4 max-w-xl space-y-4 text-lg text-foreground/70">
+          <div className="mt-4 max-w-xl space-y-4 text-base text-foreground/70">
             <p>
               A Computer Science major with a Machine Learning concentration and Business minor at the University of Maryland&apos;s
-              Honors College. This site is where I document the projects I&apos;m building and the thinking behind them.
+              Honors College. 
             </p>
-            <p>
-              I build end-to-end, from writing the code to shaping the strategy behind it. My flagship project, Ganarlo,
-              is a habit-formation app I designed and built using React Native and Supabase, where I&apos;ve owned everything from the technical
-              architecture to the product decisions that shape how people actually use it.
+            <p className="font-semibold uppercase tracking-wide text-foreground">
+              Technical
             </p>
-            <p>
-              As Chapter President of Alpha Chi Omega, I managed a large team and executive board, which has sharpened how I think about
-              stakeholder alignment and execution at scale. I&apos;m also bilingual in English and Spanish, which has shaped how I think
-              about building products for diverse users.
+            <div className="space-y-4 border-l-2 border-accent pl-5">
+              <p>
+                I work across the full stack of building a product, from writing the code to shaping the strategy behind it. My flagship project, Ganarlo,
+                is a habit-formation app I designed and built using React Native and Supabase, where I&apos;ve owned everything from the technical
+                architecture to the product decisions that shape how people interact with and use the app. Beyond Ganarlo, I have built a range of technical 
+                projects spanning machine learning and systems-level programming. This mix of technical depth and business strategy is what pulls me toward AI 
+                product roles, and keeps me looking for the next problem worth solving.
+              </p>
+            </div>
+            <p className="font-semibold uppercase tracking-wide text-foreground">
+              Leadership
             </p>
-            <p>
-              I&apos;m drawn to AI product roles where technical depth and business judgment meet - and I&apos;m always looking for the
-              next problem worth solving.
+            <div className="space-y-4 border-l-2 border-accent pl-5">
+              <p>
+                As Chapter President of a student-led organization, I led a 14-person executive board and organized chapter meetings, events, and initiatives for 120+ members, including university-wide programs in community outreach, philanthropy, and membership engagement. I oversaw a $740,000+ annual budget and serve as the chapter&apos;s primary spokesperson to university staff and National Headquarters, which has sharpened how I think about stakeholder alignment, delegation, and execution. I&apos;ve also spent multiple summers as an Assistant Swim Coach, mentoring younger athletes and reinforcing my ability to lead and communicate across different groups.
+              </p>
+            </div>
+            <p className="font-semibold uppercase tracking-wide text-foreground">
+              Personal
             </p>
+            <div className="space-y-4 border-l-2 border-accent pl-5">
+              <p>
+                In my free time, I enjoy reading, watching soccer, swimming, and spending time with family. I&apos;m also bilingual in English and Spanish, which has shaped how I think
+                about building products for diverse users.
+              </p>
+            </div>
+            <p className="font-semibold uppercase tracking-wide text-foreground">
+              Skills
+            </p>
+            <div className="space-y-4 border-l-2 border-accent pl-5">
+              <p>
+                Java · Python · JavaScript · C · OCaml · Pandas · HTML · CSS · Expo · ReactNative · PyTorch · Data Visualization · Programming · Leader · Collaborative · Diligent · Proactive · Reliable · Adaptable · Problem-Solver · Creative · Bilingual
+              </p>
+            </div>
           </div>
           <div className="mt-8 flex gap-4">
             <Link
