@@ -42,20 +42,20 @@ export default function Home() {
               </p>
             </div>
             <p className="font-semibold uppercase tracking-wide text-foreground">
+              Skills
+            </p>
+            <div className="space-y-4 border-l-2 border-accent pl-5">
+              <p>
+                Java · Python · JavaScript · C · OCaml · Pandas · HTML · CSS · Expo · ReactNative · PyTorch · Data Visualization · Programming · Leader · Collaborative · Diligent · Proactive · Reliable · Adaptable · Problem-Solver · Creative · Bilingual
+              </p>
+            </div>
+            <p className="font-semibold uppercase tracking-wide text-foreground">
               Personal
             </p>
             <div className="space-y-4 border-l-2 border-accent pl-5">
               <p>
                 In my free time, I enjoy reading, watching soccer, swimming, and spending time with family. I&apos;m also bilingual in English and Spanish, which has shaped how I think
                 about building products for diverse users.
-              </p>
-            </div>
-            <p className="font-semibold uppercase tracking-wide text-foreground">
-              Skills
-            </p>
-            <div className="space-y-4 border-l-2 border-accent pl-5">
-              <p>
-                Java · Python · JavaScript · C · OCaml · Pandas · HTML · CSS · Expo · ReactNative · PyTorch · Data Visualization · Programming · Leader · Collaborative · Diligent · Proactive · Reliable · Adaptable · Problem-Solver · Creative · Bilingual
               </p>
             </div>
           </div>
