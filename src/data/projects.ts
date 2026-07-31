@@ -16,15 +16,13 @@ export const projects: Project[] = [
     description:
       "*in progress*\nA habit-formation mobile app that rewards verified daily task completion with screen time, spanning onboarding, task creation, and reward tracking, plus an iOS home-screen widget for at-a-glance progress. **Problem:** most habit apps rely on willpower alone - there's no built-in incentive loop, so people abandon them. **Impact:** by tying screen time (a resource users already want) to real task completion, Ganarlo creates an accountability system baked into the product itself, not bolted on. Designed end-to-end - UI/UX in Figma, built with Expo/React Native and Supabase.",
     tags: ["JavaScript", "TypeScript", "Expo", "React Native", "App Development"],
-    repo: "https://github.com/candelalespada/ganarlo",
   },
   {
     slug: "project-two",
-    title: "Budget Tracking Site",
+    title: "Sip & Study",
     description:
-      "*in progress* \nA personal finance site aimed at financial literacy beginners, with planned features for expense tracking, categorization, budget goal-setting, and bank account syncing. **Problem:** most budgeting tools assume financial literacy the user doesn't have yet, creating a barrier for first-time budgeters. **Impact:** by designing specifically for beginners, the app lowers the entry point to financial habit-building rather than assuming prior expertise.",
+      "*in progress* \nAn app that lets users discover and rank cafes, libraries, and other public spaces based on how well-suited they are for studying or working, things like wifi quality, noise level, outlet access, and seating comfort. **Problem:** finding a good place to study or work outside your home is mostly guesswork. Google Maps and Yelp reviews focus on food and service, not the specific factors that actually matter for productivity (is it quiet enough, are there outlets, how long can you realistically stay). **Impact:** will make it easier for students and remote workers to quickly find study spots that actually fit their needs, instead of relying on trial and error.",
     tags: ["JavaScript", "TypeScript", "Expo", "React Native", "App Development"],
-    repo: "https://github.com/candelalespada/budget-tracker",
   },
   {
     slug: "project-three",
